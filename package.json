@@ -1,0 +1,44 @@
+{
+  "name": "stream-generators",
+  "version": "0.0.1-alpha",
+  "description": "Pipe ES6 Generators through Node.js streams",
+  "dependencies": {
+    "readable-stream": "~1.1.0"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.4.8",
+    "tape": "~4.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tape ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mimetnet/node-stream-generators"
+  },
+  "bugs": {
+    "url": "https://github.com/mimetnet/node-stream-generators/issues"
+  },
+  "keywords": [
+    "es6",
+    "function*",
+    "generators",
+    "readable",
+    "stream",
+    "pipe"
+  ],
+  "author": "Matthew I. Metnetsky <matthew@cowarthill.com>",
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": [
+    "node >= 0.12.0"
+  ]
+}

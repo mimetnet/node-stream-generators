@@ -1,0 +1,14 @@
+*.*~
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.swp
+*.pid
+*.gz
+*.tgz
+*.lock
+
+.idea/
+.travis.yml
