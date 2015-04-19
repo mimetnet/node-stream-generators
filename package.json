@@ -10,7 +10,7 @@
     "tape": "~4.0.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/tape ./test/*"
+    "test": "node --harmony ./node_modules/tape/bin/tape ./test/*.js"
   },
   "repository": {
     "type": "git",
