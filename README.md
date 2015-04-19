@@ -10,14 +10,14 @@ Pipe ES6 Generators through Node.js [Streams][12].
 ## Usage
 
 ```js
-var streamify = require('stream-generators'),
-    os = require('os')
-    gen = function*() {
+var streamify = require('stream-generators')
+    , os = require('os')
+    , gen = function*() {
         yield '1';
         yield '2';
         yield '3';
         yield os.EOL;
-    };
+    }
 ;
 
 streamify(gen).pipe(process.stdout);
