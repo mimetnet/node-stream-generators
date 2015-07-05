@@ -12,3 +12,5 @@
 
 .idea/
 .travis.yml
+
+test/
