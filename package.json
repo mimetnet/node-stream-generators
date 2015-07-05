@@ -3,10 +3,10 @@
   "version": "0.0.2-alpha",
   "description": "Pipe ES6 Generators through Node.js streams",
   "dependencies": {
-    "readable-stream": "~1.1.0"
+    "readable-stream": "~2.0.0"
   },
   "devDependencies": {
-    "concat-stream": "~1.4.8",
+    "concat-stream": "~1.5.0",
     "tape": "~4.0.0"
   },
   "scripts": {
