@@ -1,6 +1,6 @@
 {
   "name": "stream-generators",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Pipe ES6 Generators through Node.js streams",
   "dependencies": {
     "readable-stream": "~2.0.0"
@@ -28,17 +28,9 @@
     "pipe"
   ],
   "author": "Matthew I. Metnetsky <matthew@cowarthill.com>",
-  "license": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "engines": [
-    "node >= 0.12.0"
-  ]
+  }
 }
