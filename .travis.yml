@@ -15,5 +15,7 @@ matrix:
     env: TASK=test
   - node_js: 'iojs-v2.0.0'
     env: TASK=test
+  - node_js: 'iojs-v3.0.0'
+    env: TASK=test
   - node_js: 'iojs'
     env: TASK=test
