@@ -7,15 +7,15 @@ notifications:
 
 script: "npm run $TASK"
 
+env: TASK=test
+
 matrix:
   include:
   - node_js: '0.12'
-    env: TASK=test
-  - node_js: 'iojs-v1.0.0'
-    env: TASK=test
-  - node_js: 'iojs-v2.0.0'
-    env: TASK=test
-  - node_js: 'iojs-v3.0.0'
-    env: TASK=test
+    before_install: npm -g i npm@2
+
   - node_js: 'iojs'
-    env: TASK=test
+    before_install: npm -g i npm@2
+
+  - node_js: 'stable'
+    before_install: npm -g i npm@3
