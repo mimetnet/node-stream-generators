@@ -1,6 +1,6 @@
 {
   "name": "stream-generators",
-  "version": "0.1.0",
+  "version": "0.1.1-beta",
   "description": "Pipe ES6 Generators through Node.js streams",
   "dependencies": {
     "readable-stream": "~2.0.0"
