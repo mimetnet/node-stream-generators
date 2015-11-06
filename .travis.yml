@@ -24,3 +24,7 @@ matrix:
   - node_js: '4'
     env: TASK=test
     before_install: npm -g i npm@3
+
+  - node_js: '5'
+    env: TASK=test
+    before_install: npm -g i npm@3
