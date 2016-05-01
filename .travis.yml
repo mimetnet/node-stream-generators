@@ -5,26 +5,27 @@ language: node_js
 notifications:
   email: false
 
-script: "npm run $TASK"
+before_install:
+  - npm install -g npm@2
+  - npm install -g npm
 
 matrix:
+  fast_finish: true
   include:
-  - node_js: '0.12'
-    env: TASK=test
-    before_install: npm -g i npm@2
+    - node_js: '0.12'
+      env: TASK=test
+    - node_js: '1'
+      env: TASK=test
+    - node_js: '2'
+      env: TASK=test
+    - node_js: '3'
+      env: TASK=test
+    - node_js: '4'
+      env: TASK=test
+    - node_js: '5'
+      env: TASK=test
+    - node_js: '6'
+      env: TASK=test
 
-  - node_js: 'iojs'
-    env: TASK=test
-    before_install: npm -g i npm@2
+script: "npm run $TASK"
 
-  - node_js: '4'
-    env: TASK=test
-    before_install: npm -g i npm@2
-
-  - node_js: '4'
-    env: TASK=test
-    before_install: npm -g i npm@3
-
-  - node_js: '5'
-    env: TASK=test
-    before_install: npm -g i npm@3
