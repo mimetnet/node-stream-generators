@@ -1,5 +1,7 @@
 # stream-generators
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mimetnet/node-stream-generators.svg)](https://greenkeeper.io/)
+
 Pipe ES6 Generators through Node.js [Streams][12].
 
 [![npm version][1]][2]
