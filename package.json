@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "description": "Pipe ES6 Generators through Node.js streams",
   "dependencies": {
-    "readable-stream": "~2.1.0"
+    "readable-stream": "~2.2.3"
   },
   "devDependencies": {
-    "concat-stream": "~1.5.0",
-    "tape": "~4.5.0"
+    "concat-stream": "~1.6.0",
+    "tape": "~4.6.3"
   },
   "scripts": {
     "test": "node --harmony ./node_modules/tape/bin/tape ./test/*.js"
